@@ -10,12 +10,12 @@ export default function AboutMe() {
     Aos.init();
 }, [])
   return (
-    <div className='aboutme container-fluid py-5'>
-      <h3 className='fs-1 ps-4'>About Me</h3>
+    <div className='aboutme container-fluid py-5' id='aboutme'>
+      <h3 className='fs-1 ps-4 fw-bold'>So... What else can I tell you about me?</h3>
       <ul className='fs-2 mt-5 box'>
         <li data-aos="fade-up" data-aos-duration="1000">
         
-        <FontAwesomeIcon icon={faCode}/> So... What can I tell you? I am a junior full-stack developer. I recently finished the 4Geeks Academy Bootcamp, a 3-month program where I used reactJS, HTML, CSS/Bootstrap, Git, SQLAlchemy and Python/Flask on a regular basis.
+        <FontAwesomeIcon icon={faCode}/> I recently finished the 4Geeks Academy Bootcamp, a 3-month program where I used reactJS, HTML, CSS/Bootstrap, Git, SQLAlchemy and Python/Flask on a regular basis.
         </li>
         <li  data-aos="fade-up" data-aos-duration="3000">
         <FontAwesomeIcon icon={faLanguage} /> I am a Spanish native speaker with advanced level of spoken and written English.

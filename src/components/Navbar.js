@@ -14,14 +14,14 @@ export default function Navbar() {
         <div className="collapse navbar-collapse mb-3" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-3 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">About Me</a>
+              <a className="nav-link" aria-current="page" href="#aboutme">About Me</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Projects</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
            
             <li className="nav-item">
-              <a className="nav-link">Contact</a>
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
           

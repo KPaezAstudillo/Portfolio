@@ -6,10 +6,10 @@ import Aos from 'aos'
 
 export default function Main() {
   useEffect(() => {
-    Aos.init({duration:2000});
-}, [])
+    Aos.init({ duration: 2000 });
+  }, [])
   return (
-    <div className='main row'>
+    <div className='main row' id='main'>
       <div className=' my-auto box-1 col-lg-4 col-md-5 col-12'>
         <img src={img} className=" img-fluid ms-4"></img>
       </div>
