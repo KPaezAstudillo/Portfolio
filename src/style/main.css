@@ -1,0 +1,27 @@
+.main {
+    height: auto;
+    width: 100%;
+    background: 00ce8c;
+    background: linear-gradient(135deg, rgb(29, 203, 157) 23%, rgb(255, 249, 78) 100%);
+    font-family: monospace;
+}
+
+
+.secondary-box {
+padding: 4rem;
+    height: auto;
+    background: #ffff;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 991px) {
+
+    .main {
+        height: 90vh;
+   
+    }
+    
+}
+
+
+

@@ -1,7 +1,8 @@
 import React from 'react'
+import '../style/projects.css';
 
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <div className='projects'>Projects</div>
   )
 }

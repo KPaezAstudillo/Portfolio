@@ -1,0 +1,7 @@
+.projects {
+    height: 90vh;
+    width: 100%;
+    background: 00ce8c;
+    background: linear-gradient(135deg, rgb(29, 203, 157) 23%, rgb(255, 249, 78) 100%);
+    font-family: monospace;
+}
